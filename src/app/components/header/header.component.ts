@@ -5,9 +5,11 @@ import { Component } from '@angular/core';
   selector: 'app-header',
   standalone: true,
   imports: [
-    NgOptimizedImage 
+    NgOptimizedImage
   ],
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']  
+  styleUrl: './header.component.scss'
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+
+}
